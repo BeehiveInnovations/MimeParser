@@ -71,7 +71,7 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
     
     enum QuotedPrintableDecoderError : Error {
         case invalidQuotedPrintableString
